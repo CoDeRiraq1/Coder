@@ -173,11 +173,11 @@ async def ihd(client: Client, message: Message):
     )
 
 
-@app.on_message(command(["remix","مزج"]))
+@app.on_message(command(["قصيدة","ق"]))
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
-    url = f"https://t.me/M_Z_J1/{rl}"
-    await send_voice(message.chat.id,url,caption="↯ by -  : تم اختيار المزج لك 🤍",
+    url = f"https://t.me/TC3TT/{rl}"
+    await client.send_voice(message.chat.id,url,caption="↯ : تم اختيار مزج لك 🤍",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -186,4 +186,6 @@ async def ihd(client: Client, message: Message):
                 ],
             ]
         )
-    )
+   )
+
+
