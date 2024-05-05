@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
  
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID","20036317"))
-API_HASH = getenv("API_HASH","986cb4ba434870a62fe96da3b5f6d411")
+API_ID = int(getenv("API_ID","20305928"))
+API_HASH = getenv("API_HASH","ee7333ca2fa6aa70c9ec756c78aad598")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -23,7 +23,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 480))
 LOGGER_ID = int(getenv("LOGGER_ID"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 5145609515))
+OWNER_ID = int(getenv("OWNER_ID", 5539139939))
 
 ## Fill these variables if you re deploying on heroku.
 # Your heroku app name
@@ -33,7 +33,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/king-1-9/AMusic",
+    "https://github.com/CoDeRiraq1/coder",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
