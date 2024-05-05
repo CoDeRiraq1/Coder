@@ -171,3 +171,19 @@ async def ihd(client: Client, message: Message):
             ]
         )
     )
+
+
+@app.on_message(command(["remix","مزج"]))
+async def ihd(client: Client, message: Message):
+    rl = random.randint(2,90)
+    url = f"https://t.me/M_Z_J1/{rl}"
+    await client.send_voice(message.chat.id,url,caption="↯ by - @M_Z_J1 : تم اختيار المزج لك 🤍",
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)
+                ],
+            ]
+        )
+                           )
