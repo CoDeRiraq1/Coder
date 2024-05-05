@@ -16,7 +16,7 @@ from random import  choice, randint
 
 
 
-@app.on_message(command(["غنيلي","‹ غنيلي ›"]))
+@app.on_message(command(["غنيلي","‹ غنيلي ›","غ"]))
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/BE_19/{rl}"
