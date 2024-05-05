@@ -1,5 +1,5 @@
 #تعديل كامل ابو عبيدة @AA37A 
-from AarohiX import app as bot
+from ZeMusic import app as bot
 from config import BOT_USERNAME
 from pyrogram import filters
 from pyrogram.types import (
