@@ -144,8 +144,24 @@ async def ihd(client: Client, message: Message):
 @app.on_message(command(["‹ قران ›", "قران"]) & filters.private)
 async def ihd(client: Client, message: Message):
     rl = random.randint(1,90)
-    url = f"https://t.me/lllIIlIllIlIIlI/{rl}"
+    url = f"https://t.me/DDN0D/{rl}"
     await client.send_voice(message.chat.id,url,caption="↯ : تم اختيار ايـه قرآنيه اليك",
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        text=config.CHANNEL_NAME, url=config.CHANNEL_LINK)
+                ],
+            ]
+        )
+    )
+
+
+@app.on_message(command(["قصيدة","ق"]))
+async def ihd(client: Client, message: Message):
+    rl = random.randint(2,90)
+    url = f"https://t.me/TC3TT/{rl}"
+    await client.send_voice(message.chat.id,url,caption="↯ : تم اختيار اغنية لك 🤍",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
