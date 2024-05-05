@@ -3,7 +3,7 @@ import asyncio
 
 import random
 
-from ZeMusic import app
+from ZeMusic import mody
 
 from pyrogram.types import (InlineKeyboardButton,
 
@@ -15,7 +15,16 @@ from pyrogram import filters, Client
 
 
 
+@app.on_message(command(["كت"]))
 
+async def coder(client: Client, message: Message):
+
+      a = random.choice(txt)
+
+      await message.reply(
+
+        f"{a}")
+ 
 
 txt = [
 
@@ -3680,18 +3689,9 @@ txt = [
 
 
 
-        ]
+        ],
+     ],
+ ), 
+) 
 
 
-        
-
-
-@app.on_message(command(["كت"]))
-
-async def ktbat(client: Client, message: Message):
-
-      a = random.choice(txt)
-
-      await message.reply(
-
-        f"{a}")
