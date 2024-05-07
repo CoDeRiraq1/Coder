@@ -177,7 +177,7 @@ async def ihd(client: Client, message: Message):
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/M_Z_J1/{rl}"
-    await client.send_voice(message.chat.id,url,caption="↯ : تم اختيار مزج لك 🤍",
+    await client.send_voice(message.chat.id,url,caption="↯ 00:00 ✨: تم اختيار مزج لك 🤍",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
