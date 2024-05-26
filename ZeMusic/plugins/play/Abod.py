@@ -141,7 +141,7 @@ async def ihd(client: Client, message: Message):
     )
 
 
-@app.on_message(command(["قران ›", "قران ›"]) & filters.private)
+@app.on_message(command(["قران"]) & filters.private)
 async def ihd(client: Client, message: Message):
     rl = random.randint(1,90)
     url = f"https://t.me/DDN0D/{rl}"
@@ -157,7 +157,7 @@ async def ihd(client: Client, message: Message):
     )
 
 
-@app.on_message(command(["قصيدة ›","قصيدة ›"]))
+@app.on_message(command(["قصيدة"]))
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/TC3TT/{rl}"
@@ -173,7 +173,7 @@ async def ihd(client: Client, message: Message):
     )
 
 
-@app.on_message(command(["مزج ›","مزج ›"]))
+@app.on_message(command(["مزج"]))
 async def ihd(client: Client, message: Message):
     rl = random.randint(2,90)
     url = f"https://t.me/M_Z_J1/{rl}"
