@@ -1,7 +1,7 @@
 {
     "name": "『 𝚂𝚄𝙾𝚁𝙲𝙴 𝙺𝙸𝙽𝙶 』",
     "description": "〔 سـورس الملك 𝚂𝙾𝚄𝚁𝙲𝙴 𝙺𝙸𝙽𝙶 𖤍 \n افضـل سـورس لتشغيل الصوتيات في المكالمه  › تحديثـات متواصله › 〔 حصريـاً 〕\n - مطـور السـورس : 𝙰𝙱𝙳𝚄𝙻𝙻𝙰𝙷",
-    "logo": "https://graph.org/file/2f199ef466e7950dd5e79.jpg",
+    "logo": "https://telegra.ph/file/0f1cd03fda25f1e758dae.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -15,13 +15,13 @@
     ],
     "env": {
       "API_ID": {
-        "description": "اتركه كما هو.",
-        "value": "20036317",
+        "description": "ايب ايدي الخاص بك.",
+        "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "اتركه كما هو.",
-        "value": "986cb4ba434870a62fe96da3b5f6d411",
+        "description": "ايبي هاش الخاص بك.",
+        "value": "",
         "required": true
       },
       "BOT_NAME": {
@@ -30,17 +30,17 @@
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "ضع هنا تكون البوت الذي صنعته من @BotFather.",
+        "description": "ضع هنا توكن البوت الذي صنعته من @BotFather.",
         "value": "",
         "required": true
       },
       "START_IMG_URL": {
         "description": "رابط صوره start او اتركه كما هو.",
-        "value": "https://te.legra.ph/file/e8bdc13568a49de93b071.jpg",
+        "value": "https://telegra.ph/file/5959e17e56ef1dcfcfd24.jpg",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "لا تغيره. او قم بانشاء قاعده البيانات. الشرح https://t.me/EF_19/2.",
+        "description": "لا تغيره. او قم بانشاء قاعده البيانات. الشرح .",
         "value": "mongodb+srv://abood:king@cluster0.rbp1cqz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
         "required": true
       },
@@ -67,12 +67,12 @@
       },
       "CHANNEL_NAME": {
         "description": "اسم قناتك.",
-        "value": "𝚂𝚄𝙾𝚁𝙲𝙴 𝙺𝙸𝙽𝙶",
+        "value": "Mixthon CMD",
         "required": true
       },
       "CHANNEL_LINK": {
         "description": "رابط قناتك.",
-        "value": "https://t.me/EF_19",
+        "value": "https://t.me/mixthon",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
