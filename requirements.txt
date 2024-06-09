@@ -16,7 +16,7 @@ heroku3
 httpx[http2]
 httpx==0.25.2
 lyricsgenius
-motor
+motor-3.0.0
 numpy
 pillow
 psutil
@@ -37,7 +37,7 @@ spotipy
 telegraph
 tgcrypto
 unidecode
-yt-dlp==2023.12.30
+yt-dlp
 youtube-search
 youtube-search-python
 wget
